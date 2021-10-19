@@ -1,0 +1,115 @@
+$font_color: orange;
+$color_black: black;
+$color_white: white;
+/*----------------------Header------------------*/
+header{
+	height: 100px;
+}
+header h1{
+	color: $font_color;
+	text-align: center;
+}
+header h4{
+	color: brown;
+	text-align: center;
+}
+header ul{
+	margin-top: 20px;
+}
+
+header ul li{
+	float: left;
+	margin-left: 20px;
+	list-style: none;
+}
+header ul li a{
+	text-decoration: none;
+	color: $color_black;
+}
+
+header input{
+	margin-top:px;
+	margin-left: 20px;
+}
+header h6{
+	color: $font_color;
+	text-align: center;
+}
+/*----------------------Main 1-----------------------*/
+.banner1{
+	height: 700px;
+	background-image: url(../img/Banner1.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.banner1 
+/*----------------------Main 2-----------------------*/
+.banner2{
+	height: 700px;
+}
+.banner2 h3{
+	color: $font_color;
+	text-align: center;
+}
+.banner2 ul li{
+	list-style: none;
+}
+.banner2 ul li img{
+	width: 350px;
+	height: 400px;
+}
+/*----------------------Main 3-----------------------*/
+.banner3{
+	height: 500px;
+}
+.banner3 ul{
+	float: right;
+}
+.banner3 ul li{
+	list-style: none;
+	margin-top: 40px;
+}
+.banner3 ul li h4{
+	margin-right: 15%;
+	color: $font_color;
+}
+#m3h4{
+	background-color: $font-color;
+	color: $color_black;
+}
+/*----------------------Main 4-----------------------*/
+.banner4{
+	background-image: url(../img/banner4.jfif);
+	background-repeat: no-repeat;
+	background-size: 100% 700px;
+	height: 720px;
+}
+.banner4 h3{
+	color: $font_color;
+	text-align: center;
+	padding-top: 30px;
+}
+.banner4 form{
+	height: 400px;
+	width: 400px;
+	background-color: $color_white;
+	border-radius: 10px;
+	margin-top: 50px;
+	margin-left: 35%;
+}
+/*----------------------Main 5-----------------------*/
+.banner5{
+	background-color: #aba7adf2;
+	height: 300px;
+	border-radius: 0px 0px 15px 15px;
+}
+.m5d{
+	float: right;
+	margin-right: 13%;
+	margin-top: 5%;
+	color: $color_white;
+}
+.m5d li{
+	list-style: none;
+}
